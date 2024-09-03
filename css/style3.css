@@ -46,6 +46,16 @@ body {
         list-style-type: none;
     }
 
+    .nav-link {
+    color: var(--prim);
+    text-decoration: none;
+    transition: color 2s ease-in;
+    }
+
+    .nav link-hover { 
+    color: var(--sec);
+    }
+
     .row {
         display: flex;
         /* flex-direction: row-reverse; */
